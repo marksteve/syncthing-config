@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv sh
+
+cloudflared --no-autoupdate tunnel run --url localhost:8384 $CF_TUNNEL_ID
